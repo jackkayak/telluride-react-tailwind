@@ -13,7 +13,7 @@ const NavBar = () => {
     </div>
 
     {/* top nav menu */}
-    <ul className='flex w-full ml-6'>
+    <ul className='flex w-full ml-6 text-sm'>
         <li className='px-4 cursor-pointer flex items-center hover:underline group'>Vehicles<span className='ml-2 group-hover:rotate-180 duration-300'><FaAngleDown /></span></li>
         <li className='px-4 cursor-pointer flex items-center group hover:underline'>Shopping Assist<span className='ml-2 group-hover:rotate-180 duration-300'><FaAngleDown /></span></li>
         <li className='px-4 cursor-pointer hover:underline'>Inventory</li>
